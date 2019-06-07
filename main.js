@@ -1,6 +1,7 @@
 var G = 5;
 
 var pointMassHandler = new PointMassHandler([
+  // format: (mass, [posx,posy,posz], [velx,vely,velz])
   new PointMass(1000, [0, 0, 0], [0, 0, 0]),
   new PointMass(50, [200, 0, 0], [0, 5, 0]),
   new PointMass(50, [-400, 0, 0], [0, -3, 0]),
